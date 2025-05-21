@@ -1,0 +1,33 @@
+.division-input-container {
+    display: flex;
+    font-size: 32px;
+    width: 100%;
+}
+
+.problem-input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.arithmetic {
+    padding: 0 10px;
+}
+
+/* Removes Spin Box on Number Inputs */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+
+input[type=number] {
+    display: flex;
+    text-align: center;
+    width: 2rem;
+    height: 2rem;
+    margin: 0;
+    -moz-appearance:textfield; /* Firefox */
+}
