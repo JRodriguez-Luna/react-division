@@ -1,8 +1,8 @@
 import './DivisionInput.css'
 
 type DivisionInputProps = {
-    onChangeDividend: (value: number) => void;
-    onChangeDivisor: (value: number) => void;
+    onChangeDividend: (value: string) => void;
+    onChangeDivisor: (value: string) => void;
 };
 
 export function DivisionInput({ onChangeDividend, onChangeDivisor }: DivisionInputProps) {
@@ -11,12 +11,12 @@ export function DivisionInput({ onChangeDividend, onChangeDivisor }: DivisionInp
             <label className='problem-input'>
                 <input
                     type="number"
-                    onChange={e => onChangeDividend(Number(e.target.value))}
+                    onChange={e => onChangeDividend(e.target.value)}
                 />
                 <span className='arithmetic'>÷</span>
                 <input
                     type="number"
-                    onChange={e => onChangeDivisor(Number(e.target.value))}
+                    onChange={e => onChangeDivisor(e.target.value)}
                 />
             </label>
         </div>
