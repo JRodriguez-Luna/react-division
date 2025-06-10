@@ -35,3 +35,25 @@
   background-color: black;
 }
 
+
+/* Quotient */
+
+/* Debug */
+/*****  */
+.quotient {
+  border: 1px dashed blue;
+}
+
+.dividend {
+  border: 1px dashed red;
+}
+/****** */
+
+.quotient input {
+  width: 2.5rem;
+  height: 2.5rem;
+  font-size: 2.5rem;
+  border: 2px solid #000000;
+  margin: 0 0.1rem;
+  background: white;
+}

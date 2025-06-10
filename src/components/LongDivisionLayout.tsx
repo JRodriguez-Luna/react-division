@@ -9,6 +9,23 @@ export function LongDivisionLayout({ dividend, divisor }: LongDivisionLayoutProp
 
   return (
     <div className="long-division-container">
+      <div className='quotient division-row'>
+        <div>
+          <label htmlFor="quotientInput1">
+            <input type="number" name='input1'/>
+          </label>
+        </div>
+        <div>
+          <label htmlFor="quotientInput1">
+            <input type="number" name='input1'/>
+          </label>
+        </div>
+        <div>
+          <label htmlFor="quotientInput1">
+            <input type="number" name='input1'/>
+          </label>
+        </div>
+      </div>
       <div className="division-row ">
         <div className="divisor">{divisor}</div>
         <div className="bracket-body">
